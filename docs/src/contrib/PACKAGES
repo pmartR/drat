@@ -6,3 +6,9 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: pmartRdata
+Version: 2.0.0
+Depends: R (>= 4.0.0)
+MD5sum: 2b1532b53254f44156a86e54a9da9579
+NeedsCompilation: no
