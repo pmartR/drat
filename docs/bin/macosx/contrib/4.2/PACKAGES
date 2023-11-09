@@ -1,15 +1,6 @@
-Package: drat
-Version: 0.1.8
-Depends: R (>= 3.2.0)
-Imports: utils
-Suggests: git2r, knitr, rmarkdown
-License: GPL (>= 2)
-MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
-NeedsCompilation: no
-
 Package: pmartR
 Version: 2.4.1
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.0.0),
 Imports: Rcpp (>= 0.12.8), data.table, doParallel, dplyr, ggplot2,
         e1071, foreach, methods, mvtnorm, pcaMethods, plotly, purrr,
         rrcov, stringr, tidyr, RColorBrewer, magrittr, parallelly,
@@ -18,11 +9,4 @@ LinkingTo: Rcpp, RcppArmadillo, BH
 Suggests: knitr, limma, rmarkdown, edgeR, DESeq2, scales, S4Vectors,
         survival, testthat, trelliscopejs, pmartRdata, vdiffr
 License: BSD_2_clause + file LICENSE
-MD5sum: 2c3f3b7f7dc63e47c5f510eda35ac4df
-NeedsCompilation: yes
-
-Package: pmartRdata
-Version: 2.0.0
-Depends: R (>= 4.0.0)
-MD5sum: 2b1532b53254f44156a86e54a9da9579
-NeedsCompilation: no
+MD5sum: 2c7397309ef9ae9ce614618bc1bdc755
